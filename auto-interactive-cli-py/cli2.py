@@ -17,6 +17,7 @@ def cli():
             pass
         else:
             commands_list.append(search_commands[i][0])
+    #print(commands_list)
 
 
     print("Liste des commandes disponibles : ")
