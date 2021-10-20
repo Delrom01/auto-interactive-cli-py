@@ -1,0 +1,4 @@
+questionary==1.10.0
+prompt_toolkit==3.0.20
+wcwidth==0.2.5
+colorama==0.4.4
