@@ -12,7 +12,11 @@ def cli():
     search_commands = inspect.getmembers(commands.Instances, inspect.isfunction)  # commands = fichier de commandes
     #print(search_commands)
     for i in range(len(search_commands)):
-        commands_list.append(search_commands[i][0])
+        if search_commands[i][0] == "__del__":
+            # print("""--- Suppression de la commande __del__ de la liste des commandes ---""")
+            pass
+        else:
+            commands_list.append(search_commands[i][0])
     #print(commands_list)
 
 
