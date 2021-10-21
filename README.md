@@ -15,5 +15,5 @@ Coming soon
 
 
 ## Documentation
-questionary -> https://questionary.readthedocs.io/en/stable/
-colorama -> https://pypi.org/project/colorama/
+- questionary -> https://questionary.readthedocs.io/en/stable/
+- colorama -> https://pypi.org/project/colorama/
