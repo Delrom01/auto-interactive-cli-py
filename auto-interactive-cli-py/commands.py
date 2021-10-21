@@ -1,46 +1,58 @@
 from colorama import *
 
-init()
+init()    #for colorama
 
 
 class Instances:
 
-    def __init__(self)-> None:
-        print(Fore.YELLOW + """--- Initialisation des instances nécessaires ---""" + Fore.RESET)
-        self.var_1 = 2
-        self.var_2 = False
+    def __init__(self)-> None:      #function allowing to set and initialize the instances ("global variables") useful in the following functions
+        print(Fore.YELLOW + """--- Initialization of the necessary instances ---""" + Fore.RESET)
+        #declaration of the instances on the model :
+        #self.var_1 = value_1     (value_1 is int, float, bool ...)
+        #self.var_2 = value_2     (value_2 is int, float, bool ...)
 
 
-    def __del__(self)-> None:
-        print(Fore.YELLOW + """--- Suppressions des instances ---""" + Fore.RESET)
+    def __del__(self)-> None:       #function to cleanly delete instances
+        print(Fore.YELLOW + """--- Deletion of instances ---""" + Fore.RESET)
 
 
-    def read_file(self, file_name: str, file_yes: int) -> None:
+    def function_1(self, param_1, param_2) -> None:      #function with 2 parameters in entry
         """
 
         Args:
-            file_name (str): Nom du fichier à lire
-            file_yes (int): Un entier
+            param_1: Description of the parameter param_1
+            param_2: Description of the parameter param_2
 
         Returns:
-            nothing
-        """
-        print(f"Test de lecture dans le fichier : {file_name}")
-        print(file_yes)
+            #if return something
+        """        
+        ###
+        #code of the function_1
+        #you can use the parameters in the following way (for exemple) :
+        #print(param_1)
+        ###
+ 
+
+    def function_2(self):       #function with any parameters in entry
+        ###
+        #code of the function_2
+        #you can use the instances in the following way (for exemple) :
+        #self.var_1 = self.var_1 + 1
+        #print(self.var_1)
+        ###
 
 
-    def write_file(self):
-        print("Test d'ecriture dans un fichier")
+    def function_3(self):       #function with any parameters in entry
+        ###
+        #code of the function_3
+        #you can display a message in the following way (for example):
+        #print(Fore.YELLOW + "message" + Fore.RESET)
+    
+    
+    ###
+    #The same goes for all the functions to be declared
+    ###
 
 
-    def modif_instance_var_1(self):
-        self.var_1 = self.var_1 + 1
-        print(Fore.YELLOW + "commande exécutée" + Fore.RESET)
-
-
-    def print_instance_var_1(self):
-        print(self.var_1)
-
-
-    def exit(self):
+    def exit(self):     #function to leave the cli
         pass
