@@ -18,6 +18,9 @@ In the ```auto-interactive-cli-py``` folder, you will find
 - file ```cli_select_list.py``` : who create a cli with a list of functions to be selected by arrows
 - file ```cli_select_input.py``` : who create a cli with a list of functions to be selected by keyboard input 
 
+###### Exemples
+coming soon
+
 
 ## Documentation
 - questionary -> https://questionary.readthedocs.io/en/stable/
