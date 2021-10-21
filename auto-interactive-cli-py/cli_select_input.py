@@ -6,7 +6,7 @@ from colorama import *
 init()   #for colorama
 
 
-def cli():                  ######!! cli with a list of functions to be selected by input !!######
+def cli():                  ######!! cli with a list of functions to be selected by keyboard input !!######
     commands_list = []
     search_commands = inspect.getmembers(commands.Instances, inspect.isfunction)  # commands = commands.py file
     for i in range(len(search_commands)):
