@@ -3,7 +3,7 @@ from colorama import *
 init()    #for colorama
 
 
-class Instances:
+class Instances:        ######!! This file contains all the commands that can be used/launched with the cli !!######
 
     def __init__(self)-> None:      #function allowing to set and initialize the instances ("global variables") useful in the following functions
         print(Fore.YELLOW + """--- Initialization of the necessary instances ---""" + Fore.RESET)
