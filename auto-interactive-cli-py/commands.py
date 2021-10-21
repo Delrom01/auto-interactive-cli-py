@@ -5,8 +5,8 @@ init()    #for colorama
 
 class Instances:        ######!! This file contains all the commands that can be used/launched with the cli !!######
 
-    def __init__(self)-> None:      #function allowing to set and initialize the instances ("global variables") useful in the following functions
-        print(Fore.YELLOW + """--- Initialization of the necessary instances ---""" + Fore.RESET)
+    def __init__(self)-> None:      #function allowing to set and initialise the instances ("global variables") useful in the following functions
+        print(Fore.YELLOW + """--- Initialisation of the necessary instances ---""" + Fore.RESET)
         #declaration of the instances on the model :
         #self.var_1 = value_1     (value_1 is int, float, bool ...)
         #self.var_2 = value_2     (value_2 is int, float, bool ...)
