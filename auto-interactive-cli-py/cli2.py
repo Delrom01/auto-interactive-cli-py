@@ -3,7 +3,7 @@ import inspect
 import commands  # commands.py file
 from colorama import *
 
-init()
+init()   #for colorama
 
 
 def cli():
